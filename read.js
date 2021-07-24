@@ -19,5 +19,5 @@ const read = () => {
     }
     return data;
 }
-const result = read('./hh.xls', 'Sheet1');
+const result = read('');
 console.log(result) // [ [ '姓名', '城市', '年龄' ], [ '齐年庆', '南阳', 18 ], [ '伟峰', '郑卓', 25 ] ]
